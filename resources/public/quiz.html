@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Simple Math Quiz</title>
+  </head>
+  <body>
+    <h1>Simple Math Quiz</h1>
+    <form id="eval-form">
+        <h4>Q-1:This is Question-1</h4>
+        <input type="radio" name="op1" value="op1">Option-1<br>
+        <input type="radio" name="op2" value="op2">Option-2<br>
+        <input type="radio" name="op3" value="op3">Option-3<br>
+
+        <h4>Q-2:This is Question-2</h4>
+        <input type="radio" name="op1" value="op1">Option-1<br>
+        <input type="radio" name="op2" value="op2">Option-2<br>
+        <input type="radio" name="op3" value="op3">Option-3<br>
+
+        <h4>Q-3:This is Question-3</h4>
+        <input type="radio" name="op1" value="op1">Option-1<br>
+        <input type="radio" name="op2" value="op2">Option-2<br>
+        <input type="radio" name="op3" value="op3">Option-3<br>
+
+      <br><input id="button-answer" type="button" value="done" /></p>
+    </form>
+    <p>Your result: <span id="quiz-result"></span></p>
+    <script src="/js/client.js" language="javascript"></script>
+    <script type="text/javascript" language="javascript">
+      client_server.quiz.main()
+    </script>
+  </body>
+</html>
